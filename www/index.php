@@ -1,12 +1,36 @@
-<!DOCTYPE html>
-<html lang='en'>
-  <head>
-    <title>Home Page</title>
-  </head>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <meta name="description" content="Page about discovering new php possibilities and use for templates and DRY code writing">
+  <link rel="stylesheet" src="styles.css">
+  <style>
+    nav.navbar {
+      ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row; gap: 30px;
+      }
+      li {
+        list-style-type: none;
+        border: 1px solid black;
+}
+    }
+  </style>
+</head>
+<?php 
+  // nav variables
+  $pageLanguage = "en";
+  $pageTitle = "Home Page";
+  $description = "Page about discovering new php possibilities and use for templates and DRY code writing";
+  $tags = array("php", "include", "template", "functionalities");
+?>
 	<body>
-		<h1>Hi</h1>
+    <?php include "nav.php" ?>
+		<h1>Home Page</h1>
 		<?php 
-
  		// variables
 	 	$characterName = "Jezreel Veloso";
 		$characterAge = 20;
@@ -49,8 +73,4 @@
 		echo round(3.5); echo round(3.7);	echo round(3.2);
 		echo ceil(3.5);	echo ceil(3.7);	echo ceil(3.2);
 		echo floor(3.5);	echo floor(3.7);	echo floor(3.2);
-
 		?>
-
-	</body>
-</html>
