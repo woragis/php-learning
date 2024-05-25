@@ -13,7 +13,7 @@
     ?>
     <hr>
     <h4>Which student do you want the grades?</h4>
-    <form action="calculator.php" method="post" >
+    <form action="map_arr.php" method="post" >
       <p>Students:</p>
       <ul>
         <li>Android 18</li>
