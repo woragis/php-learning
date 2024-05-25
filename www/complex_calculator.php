@@ -7,8 +7,8 @@
     <h1>Conditions</h1>
     <h3>Calculator</h3>
     <form action="calculator.php" method="post" >
-      <label for="number1">Number 1: </label> <input type="text" name="number1" id="number1"> <br>
-      <label for="number1">Number 2: </label> <input type="text" name="number2" id="number2"> <br>
+      <label for="number1">Number 1: </label> <input type="number" step="0.1" name="number1" id="number1"> <br>
+      <label for="number1">Number 2: </label> <input type="number" step="0.1" name="number2" id="number2"> <br>
       <label for="operator">Operator: </label> <input type="text" name="operator" id="operator"> <br>
       <input type="submit" value="Calculate">
     </form>
