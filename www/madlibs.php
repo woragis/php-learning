@@ -6,11 +6,11 @@
 	<body>
     <h1>MadLibs Game</h1>
     <form action="madlibs.php" method="post" >
-      <label for="color1"><input type="text" name="color1" id="color1">
-      <label for="color2"><input type="text" name="color2" id="color2">
-      <label for="person1"><input type="text" name="person1" id="person1">
-      <label for="person2"><input type="text" name="person2" id="person2">
-      <label for="person3"><input type="text" name="person3" id="person3">
+      <label for="color1"><input type="text" name="color1" id="color1"> <br>
+      <label for="color2"><input type="text" name="color2" id="color2"> <br>
+      <label for="person1"><input type="text" name="person1" id="person1"> <br>
+      <label for="person2"><input type="text" name="person2" id="person2"> <br>
+      <label for="person3"><input type="text" name="person3" id="person3"> <br>
       <input type="submit" value="Complete MadLibs">
     </form>
     <h4>Complete the following:</h4>

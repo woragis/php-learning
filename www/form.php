@@ -11,15 +11,15 @@
 
     <h4>Get method</h4>
     <form action="form.php" method="get" >
-      <label for="name">Name: </label> <input type="text" name="name" id="name" value=<?php $_GET["name"]?>>
-      <label for="age">Age: </label> <input type="text" name="age" id="age" value=<?php $_GET["age"] ?>>
+      <label for="name">Name: </label> <input type="text" name="name" id="name" value=<?php $_GET["name"]?>> <br>
+      <label for="age">Age: </label> <input type="text" name="age" id="age" value=<?php $_GET["age"] ?>> <br>
       <input type="submit" value="Send name to server">
     </form>
 
     <h4>Post method</h4>
     <form action="form.php" method="post" >
-      <label for="name">Name: </label> <input type="text" name="name" id="name" value=<?php $_POST["name"]?>>
-      <label for="age">Age: </label> <input type="text" name="age" id="age" value=<?php $_POST["age"] ?>>
+      <label for="name">Name: </label> <input type="text" name="name" id="name" value=<?php $_POST["name"]?>> <br>
+      <label for="age">Age: </label> <input type="text" name="age" id="age" value=<?php $_POST["age"] ?>> <br>
       <input type="submit" value="Send name to server">
     </form>
 
@@ -28,8 +28,8 @@
     <hr>
 
     <form action="form.php" method="post" >
-      <label for="name">Name: </label> <input type="text" name="name" id="name">
-      <label for="age">Age: </label> <input type="text" name="age" id="age">
+      <label for="name">Name: </label> <input type="text" name="name" id="name"> <br>
+      <label for="age">Age: </label> <input type="text" name="age" id="age"> <br>
       <input type="submit" value="Send name to server">
     </form>
 
